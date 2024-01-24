@@ -11856,7 +11856,7 @@ textarea.form-control-lg {
   }
 }
 :root {
-  --bs-primary-rgb: 175, 160, 109;
+  --bs-primary-rgb: 190, 177, 111;
 }
 
 * {
@@ -11901,7 +11901,7 @@ h6,
 
 .resume-subheading {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.2rem;
 }
 
@@ -11946,7 +11946,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid rgba(255, 255, 255, 0.521);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -11963,6 +11963,7 @@ p.lead {
     display: block;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #fff8d8;
     display: block;
   }
 }
@@ -12046,16 +12047,18 @@ section.resume-section .resume-section-content {
 }
 
 /* Skill icons style */
-.dev-icons {
-  font-size: 3rem;
+.list-inline {
+  padding-left: 0;
+  list-style: none;
 }
 
 .list-inline-item {
   display: inline-block;
+  width: 3rem;
 }
 
 .list-inline-item:not(:last-child) {
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 
 /*# sourceMappingURL=custom.css.map */
