@@ -1,9 +1,5 @@
-/* import the necessary Bootstrap files */
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/functions";
 
-/* simply assign the value */
-$primary: $red;
-
-/* finally, import Bootstrap to set the changes! */
+:root {
+  --bs-primary-rgb: 36, 214, 205;
+}

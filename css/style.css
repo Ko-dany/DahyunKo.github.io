@@ -10,6 +10,10 @@
   background-color: #bd5d38 !important;
 } */
 
+/* :root {
+  --bs-primary-rgb: 189, 93, 56;
+} */
+
 body {
   padding-top: 3.375rem;
   color: #6c757d;
@@ -37,42 +41,33 @@ h6,
   text-transform: uppercase;
 }
 
-h1,
-.h1 {
+.resume-heading {
   line-height: 1;
-  font-weight: bolder;
+  font-weight: 500;
+  font-size: 4rem;
+  letter-spacing: -3px;
 }
 
 p.lead {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
-.content-heading {
+.resume-subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 2.5rem;
-}
-
-.content-item-heading {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1.7rem;
-}
-
-.content-item-subheading {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  color: #6c757d;
 }
 
 /* Navigation style */
+
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 #sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
@@ -151,6 +146,32 @@ section.resume-section .resume-section-content {
   }
 }
 
+.content-heading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.content-item-heading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.content-item-subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+.resume-section p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
 /* Social Icons style */
 
 .social-icons .social-icon {
@@ -170,4 +191,16 @@ section.resume-section .resume-section-content {
 }
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
+}
+
+/* Skill icons style */
+.dev-icons {
+  font-size: 3rem;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
 }
