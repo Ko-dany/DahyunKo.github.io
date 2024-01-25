@@ -170,7 +170,7 @@ section.resume-section .resume-section-content {
 .resume-section-description {
   margin: 0;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: $font-color-gray;
 }
 
@@ -178,6 +178,11 @@ section.resume-section .resume-section-content {
   display: flex;
   align-items: center;
   justify-self: center;
+}
+
+.project-image {
+  width: 500px;
+  border: 2px solid $font-color-gray;
 }
 
 /* Social Icons style */
