@@ -61,6 +61,7 @@ h6,
 p.lead {
   font-size: 1.2rem;
   font-weight: 400;
+  text-align: justify;
 }
 
 // Navigation
@@ -172,12 +173,14 @@ section.resume-section .resume-section-content {
   font-weight: 500;
   font-size: 1.1rem;
   color: $font-color-gray;
+  text-align: justify;
 }
 
 .project-description {
   display: flex;
   align-items: center;
   justify-self: center;
+  text-align: justify;
 }
 
 .project-image {
@@ -215,7 +218,7 @@ section.resume-section .resume-section-content {
 
 .list-inline-item {
   display: inline-block;
-  width: 3rem;
+  width: 4rem;
 }
 
 .list-inline-item:not(:last-child) {
